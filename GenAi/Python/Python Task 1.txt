@@ -1,0 +1,71 @@
+Question 1:Write a Python program that accepts a number from the user.
+
+If the number is greater than zero, print "Positive".
+If the number is less than zero, print "Negative".
+If the number is zero, print "Zero".
+
+		num = int(input("Enter a number"))
+		if num>0:
+		  print("Positive")
+		elif num<0:
+		  print("Negative")
+		else:
+		  print("Zero")
+		  
+Question 2:Even or Odd
+
+Write a Python program to check whether a number is even or odd. Example output: Enter a number: 8 Even
+
+		number = int(input("Enter a number"))
+		if number % 2 ==0:
+		  print("Even")
+		else:
+		  print("Odd")
+  
+  
+Question 3: Pass or Fail Write a Python program that accepts a student's mark.
+
+If the mark is greater than or equal to 35, print "Pass".
+Otherwise, print "Fail". Example output: Enter mark: 72 Pass
+
+		mark =int(input("Enter your mark: "))
+		if mark>=35:
+		  print("Pass")
+		else:
+		  print("Fail")
+  
+Question 4:Find the Largest Number Write a Python program to accept two numbers and find the largest number.
+
+If the first number is greater, print "First number is largest".
+If the second number is greater, print "Second number is largest".
+If both numbers are equal, print "Both are equal". Example output: Enter first number: 25 Enter second number: 40 Second number is largest
+
+		one = int(input("Enter number 1 :"))
+		two = int(input("Enter number 2 :"))
+
+		if one > two:
+		  print("First number is largest")
+		elif two > one:
+		  print("Second number is largest")
+		else:
+		  print("Both are equal")
+  
+ 
+
+Question 5: Nested If – Entry Eligibility Write a Python program to check a person's entry eligibility.
+
+If the person's age is 18 or above, check whether they have an ID card.
+If they have an ID card, print "Entry allowed".
+If they do not have an ID card, print "ID required".
+If their age is below 18, print "Not eligible". Example output: Enter age: 20 Do you have an ID card? yes
+
+		age = int(input("Enter age: "))
+		id = str(input("Do you have an ID card: "))
+
+		if age>18:
+		  if id == "yes":
+			print("Entry allowed")
+		  else:
+			print("ID required")
+		else:
+		  print("Not eligible")

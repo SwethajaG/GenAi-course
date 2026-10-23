@@ -1,0 +1,38 @@
+Pythin concepts:
+
+
+print
+	print print("Swethaja") , print("SWetha","Naveen","Vasi")
+	print with end - print("Swethaja" , end=""), print("Good ", end="Morning ")
+	print with sep - print("Swethaja","gurusamy", sep="7")
+	print with getting input - input("Enter a value:")
+	getting value in variable -
+				a = int(input("Enter a number : "))
+				name = str(input("Enter a name : "))
+				a= float(input("ENter a Float value:"))
+
+Arithmetic, operational, boolean , assignment operators
+
+Loops 
+	if  - if , if-else , if-elif-else 
+		if a < 40 :
+		  print("a is more that 40")
+		if a >34:
+		  print ("a is 34")
+		elif a >20:
+		  print("a is less that 20")
+		else:
+		  print("a is less that 40")			
+	Nested if 
+
+	While - 
+		while i <= 10:
+		  add = add + i
+		  i = i+1
+		print(add)
+	While with if 
+		i = 1
+		while i <=10:
+		  if i%2 !=0:
+			print(i)
+		  i = i + 1
